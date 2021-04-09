@@ -31,3 +31,25 @@ jobs:
       # Display the current perl version
       - name: perl version
         run: perl -v
+      
+      # Display /etc/issue
+      - name: /etc/issue
+        run: cat /etc/issue
+      
+      # Display the environment
+      - name: environment
+        run: env
+        
+      # Build perl HelloWorld
+      - name: Build perl HelloWorld
+        run: |
+          perl Build.PL
+          ./Build
+      
+      # Test HelloWorld
+      - name: Test perl HelloWorld
+        run: ./Build test
+        
+      # Pizza Party
+      - name: Pizza Party
+        run: echo "🍕 Ham & Pineapple, please!"
