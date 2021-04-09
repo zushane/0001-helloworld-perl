@@ -44,6 +44,7 @@ jobs:
       - name: Build perl HelloWorld
         run: |
           perl Build.PL
+          ./Build manifest
           ./Build
       
       # Test HelloWorld
