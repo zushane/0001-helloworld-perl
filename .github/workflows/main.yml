@@ -54,3 +54,6 @@ jobs:
       # Pizza Party
       - name: Pizza Party
         run: echo "🍕 Ham & Pineapple, please!"
+
+info:
+  version: 1.0.0
