@@ -2,6 +2,11 @@
 
 name: Buid and Test Perl
 
+env: 
+  WORKFLOW_VERSION: 1.0.0
+  WORKFLOW_DESCRIPTION: A basic workflow to build and test perl HelloWorld.
+  WORKFLOW_BOOKSTACK_URL: https://bookstack.zu.com/books/development-tools/chapter/github-workflows/perl-helloworld
+
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
